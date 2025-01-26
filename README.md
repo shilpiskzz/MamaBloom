@@ -1,10 +1,12 @@
 # MamaBloom
  Helping Mothers Thrive
 
- The Problem It Solves
+ # The Problem It Solves
+
 Postpartum recovery is a challenging and critical period for mothers, yet it often lacks adequate support. Many mothers face physical, emotional, and mental health challenges while simultaneously trying to care for their newborns. The lack of personalized care, limited access to mental health resources, and insufficient guidance make postpartum recovery overwhelming. According to the World Health Organization, around 287,000 women die each year globally due to complications related to pregnancy and childbirth, which includes postpartum complications, meaning a woman dies roughly every two minutes due to pregnancy or childbirth issues; the majority of these deaths occur in low-resource countries. We envision a world where all women have the opportunity to enter motherhood and not only survive, but thrive.
 
-How It Helps
+# How It Helps
+
 1. Personalized Postpartum Recovery
 ●	Offers tailored health and recovery plans based on the mother's medical history, physical condition, and preferences.
 ●	Tracks vital signs like heart rate, sleep patterns, and activity levels to ensure holistic recovery.
@@ -17,12 +19,12 @@ How It Helps
 4. Educational Resources
 ●	Provides expert-curated articles and videos on postpartum health, breastfeeding, and parenting tips.
 ●	Includes cultural and regional practices to respect diversity in postpartum care.
-
 5. Community and Support
 ●	Connects mothers to a supportive community of other new moms for shared experiences and advice.
 ●	Enables mothers to seek guidance from experts via integrated telemedicine features.
 
-How It Makes Tasks Easier/Safer
+# How It Makes Tasks Easier/Safer
+
 ●	Convenience: Centralizes postpartum recovery and baby care tools into a single, easy-to-use app.
 ●	Time-Saving: Automates routine tasks like tracking feedings or health check-ins, reducing mental load.
 ●	Safety: Alerts users to potential health risks based on real-time data and AI-driven analysis.
