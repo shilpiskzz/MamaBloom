@@ -1,7 +1,5 @@
 # MamaBloom
- Helping Mothers Thrive : https://drive.google.com/file/d/1KWgZla8FArkOypnUTciaCGWKyRfgySpB/view?usp=drive_link
-
-
+ Helping Mothers Thrive 
 
  # The Problem It Solves
 
