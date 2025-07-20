@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ask Mama Bloom</title>
+    <link rel="stylesheet" href="css/step.css" />
+    <style>
+        body {
+            background-color: #fff5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .guidance-section {
+            padding: 3rem 1rem;
+            background-color: #fff5f5;
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            max-width: 600px;
+            height: 120px;
+            padding: 1rem;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        button {
+            margin-top: 1rem;
+            padding: 10px 20px;
+            background-color: #ff9a9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        #responseArea {
+            margin-top: 2rem;
+            font-size: 1.1rem;
+            color: #333;
+            max-width: 600px;
+            margin-inline: auto;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="brand-container">
+                <img src="images/bglogo.png" class="logo" />
+                <h1 class="brand-name">Mama Bloom</h1>
+            </div>
+            <div class="tagline">Helping Mothers Thrive</div>
+        </div>
+    </header>
+
+    <section class="guidance-section">
+        <div class="container">
+            <h2>Ask Mama Bloom</h2>
+            <p>Get personalized wellness support powered by AI</p>
+            <textarea id="userInput" placeholder="Ask about mental health, baby care, nutrition..."></textarea>
+            <button onclick="getGeminiResponse()">Ask</button>
+            <div id="responseArea"></div>
+        </div>
+    </section>
+
+    <script src="js/gemini.js"></script>
+</body>
+
+</html>

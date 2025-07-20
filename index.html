@@ -75,7 +75,7 @@
         </div>
 
         <div class="features-grid">
-            <div class="feature-card">
+            <div class="feature-card scroll-animate">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -87,7 +87,7 @@
                     seamless booking system.</p>
             </div>
 
-            <div class="feature-card">
+            <div class="feature-card scroll-animate" onclick="window.location.href='chat.html'">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -99,7 +99,7 @@
                     your questions and concerns.</p>
             </div>
 
-            <div class="feature-card">
+            <!-- <div class="feature-card scroll-animate">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -109,9 +109,9 @@
                 <h3>Single Parent Community</h3>
                 <p>Connect with other single parents, share experiences, and build lasting friendships in our supportive
                     community.</p>
-            </div>
+            </div> -->
 
-            <div class="feature-card">
+            <div class="feature-card scroll-animate" onclick="window.location.href='chat.html'">
                 <div class="feature-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -133,35 +133,35 @@
                 <div class="timeline-stages">
                     <div class="stage">
                         <div class="stage-marker">1</div>
-                        <div class="stage-content">
+                        <div class="stage-content scroll-animate">
                             <h3> Finding Out About Pregnancy</h3>
                             <p>Initial discovery, emotional processing, and first steps of the journey.</p>
                         </div>
                     </div>
                     <div class="stage">
                         <div class="stage-marker">2</div>
-                        <div class="stage-content">
+                        <div class="stage-content scroll-animate">
                             <h3>2. Pregnancy</h3>
                             <p>Physical and emotional changes, health monitoring, and preparation.</p>
                         </div>
                     </div>
                     <div class="stage">
                         <div class="stage-marker">3</div>
-                        <div class="stage-content">
+                        <div class="stage-content scroll-animate">
                             <h3> Childbirth</h3>
                             <p>The transformative experience of bringing new life into the world.</p>
                         </div>
                     </div>
                     <div class="stage">
                         <div class="stage-marker">4</div>
-                        <div class="stage-content">
+                        <div class="stage-content scroll-animate">
                             <h3> Postpartum Period</h3>
                             <p>Recovery, healing, and adapting to life with a newborn.</p>
                         </div>
                     </div>
                     <div class="stage">
                         <div class="stage-marker">5</div>
-                        <div class="stage-content">
+                        <div class="stage-content scroll-animate">
                             <h3> Parenting and Nurturing</h3>
                             <p>Ongoing growth, learning, and building a loving family environment.</p>
                         </div>
@@ -171,13 +171,24 @@
         </div>
     </section>
 
-    <section class="hero">
+    <section class="hero scroll-animate">
         <div class="container">
             <h1>Your Journey to Postpartum Wellness</h1>
             <p>Expert guidance and community support for every new mother</p>
             <a href="#join" class="btn">Join Our Community</a>
         </div>
     </section>
+
+    <!-- <section class="guidance-section">
+        <div class="container">
+            <h2>Ask Mama Bloom</h2>
+            <p>Get personalized wellness support powered by AI</p>
+            <textarea id="userInput" placeholder="Ask about mental health, baby care, nutrition..."></textarea>
+            <button onclick="getGeminiResponse()">Ask</button>
+            <div id="responseArea"></div>
+        </div>
+    </section> -->
+
 
     <footer class="footer">
         <div class="footer-container">
@@ -247,6 +258,8 @@
     </footer>
 
 
+    <script src="js/scrollingAnimations.js"></script>
+    <script src="js/gemini.js"></script>
 
 </body>
 
